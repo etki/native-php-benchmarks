@@ -1,0 +1,21 @@
+{
+  "name": "etki/native-benchmarks",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "etki",
+      "email": "etki@etki.me"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Etki\\Benchmark\\Native\\": "src/"
+    }
+  },
+  "require": {
+    "phpbench/phpbench": "^0.13.0"
+  },
+  "config": {
+    "bin-dir": "bin"
+  }
+}
